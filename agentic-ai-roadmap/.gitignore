@@ -1,0 +1,16 @@
+# Secrets: NEVER commit API keys
+.env
+*.env
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local data / vector stores (can get large)
+data/raw/
+*.sqlite
+chroma/
+.DS_Store
