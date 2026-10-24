@@ -10,7 +10,7 @@ Notes are written so a complete beginner could follow along.
 
 | Phase | Topic | Status | Notes | Project |
 |---|---|---|---|---|
-| 0 | Prerequisites | ⬜ Not started | [notes](learning-log/phase-0-prerequisites.md) | [code](projects/phase-0-llm-hello/) |
+| 0 | Prerequisites | ✅ Done. | [notes](learning-log/phase-0-prerequisites.md) | [code](projects/phase-0-llm-hello/) |
 | 1 | Foundation Model | ⬜ | [notes](learning-log/phase-1-foundation-model.md) | [code](projects/phase-1-model-picker/) |
 | 2 | Prompt Engineering | ⬜ | [notes](learning-log/phase-2-prompt-engineering.md) | [code](projects/phase-2-prompt-harness/) |
 | 3 | Context Engineering (RAG) | ⬜ | [notes](learning-log/phase-3-context-engineering.md) | [code](projects/phase-3-rag-qa/) |

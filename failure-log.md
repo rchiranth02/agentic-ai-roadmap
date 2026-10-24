@@ -10,3 +10,4 @@ The roadmap's core skill is diagnosis: name the layer *before* fixing.
 | 2026-10-23 | phase-0-llm-hello | `AttributeError: 'ThinkingBlock' object has no attribute 'text'` on long input | 4 Harness | Model returned `[thinking, text]`; code assumed `content[0]` was text | Loop over `resp.content`, print only blocks where `type == "text"` |
 
 Layers: 1 Model · 2 Prompt · 3 Context · 4 Harness · 5 Loop · 6 Graph · 7 Ontology
+| 2026-10-24 | phase-0-llm-hello | "store timings?" crashed: `'NoneType' object is not iterable` | 7 Ontology (+4) | Model returned items: null; we never defined what "not an order" looks like, and validation assumed items is a list | Added rule `{"not_an_order": true}` to prompt + non-empty list check in parse() |
